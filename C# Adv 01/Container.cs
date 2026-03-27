@@ -6,13 +6,21 @@ using System.Threading.Tasks;
 
 namespace C__Adv_01
 {
-    internal class Container
+    internal class Container<T> where T: IComparable<T>
     {
-      public void swap<t>(ref t a, ref t b)
-        {
-            t temp = a; 
-            a = b;
-            b = temp;
+     private T[] values;
+
+        public T findMax(T value) { 
+        
+            T max = value;
+                foreach (T item in values)
+                {
+                    if (item.CompareTo(max) > 0)
+                    {
+                        max = item;
+                    }
+                }
+                return max;
         }
     }
 
