@@ -17,6 +17,10 @@
             #region Question 5
             // it defines a contract with type parameters that must be implemented by any class that implements the interface.
             #endregion
+            #region Question 7 
+            // Struct constrain force the parameter to be value type 
+            Question_7<int> q = new Question_7<int>();
+            #endregion
         }
     }
 }
