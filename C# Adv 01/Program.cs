@@ -13,7 +13,10 @@
             #endregion
             #region Question 4 
             //generic method is method that can declare its own data type
-            #endregion 
+            #endregion
+            #region Question 5
+            // it defines a contract with type parameters that must be implemented by any class that implements the interface.
+            #endregion
         }
     }
 }
