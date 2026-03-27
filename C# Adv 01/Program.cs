@@ -11,6 +11,9 @@
             #region Question 3
             //same as single generic class parameter  you pass two generic values and it will be work with any data type
             #endregion
+            #region Question 4 
+            //generic method is method that can declare its own data type
+            #endregion 
         }
     }
 }

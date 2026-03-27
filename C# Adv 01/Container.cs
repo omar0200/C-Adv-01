@@ -6,16 +6,14 @@ using System.Threading.Tasks;
 
 namespace C__Adv_01
 {
-    internal class Container<t>
+    internal class Container
     {
-        private t test;
-        public void addT(t dt)
+      public void swap<t>(ref t a, ref t b)
         {
-         test = dt; 
-        }
-        public t  GetT()
-        {
-            return test;
+            t temp = a; 
+            a = b;
+            b = temp;
         }
     }
+
 }
