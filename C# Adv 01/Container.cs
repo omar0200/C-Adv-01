@@ -11,7 +11,7 @@ namespace C__Adv_01
         private t test;
         public void addT(t dt)
         {
-         test = dt;
+         test = dt; 
         }
         public t  GetT()
         {
