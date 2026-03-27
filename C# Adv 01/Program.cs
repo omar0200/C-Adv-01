@@ -34,7 +34,11 @@
 
             #region Question 10 
             //it means class must implement the interface and the interface is generic and it can work with any data type 
-            Question_10<IRepository<string>> q10 = new Question_10<IRepository<string>>();  
+            Question_10<IRepository<string>> q10 = new Question_10<IRepository<string>>();
+            #endregion
+
+            #region 11
+            // it forces subclass to inhiert from baseclass
             #endregion
         }
     }
