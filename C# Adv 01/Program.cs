@@ -50,6 +50,10 @@
             #region Question 13
             //it return default value for type t 0/false for value type null for reference type
             #endregion
+
+            #region Question 14
+            SafeList<int> safeList = new SafeList<int>();
+            #endregion
         }
     }
 }
