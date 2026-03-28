@@ -58,6 +58,10 @@
             #region Question15
             //covariance means using a multipule derived type than orginally    && out keyword prevents using in input position 
             #endregion
+
+            #region Question 16 
+            //Contravariance allows you to use a less derived type than originally specified. in keyword prevents using in output position 
+            #endregion
         }
     }
 }
