@@ -54,6 +54,10 @@
             #region Question 14
             SafeList<int> safeList = new SafeList<int>();
             #endregion
+
+            #region Question15
+            //covariance means using a multipule derived type than orginally    && out keyword prevents using in input position 
+            #endregion
         }
     }
 }
