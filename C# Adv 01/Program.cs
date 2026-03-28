@@ -66,6 +66,10 @@
             #region Question 17 
             //covariance is used mostly for generalization and contravariance is used for specialization
             #endregion
+
+            #region Question 18
+            //each generic type has its own field in static
+            #endregion
         }
     }
 }
