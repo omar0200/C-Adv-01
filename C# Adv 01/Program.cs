@@ -46,6 +46,10 @@
             //separating each constraint with a comma. For example:
             Questiion_12 questiion = new Questiion_12("hello");
             #endregion
+
+            #region Question 13
+            //it return default value for type t 0/false for value type null for reference type
+            #endregion
         }
     }
 }
