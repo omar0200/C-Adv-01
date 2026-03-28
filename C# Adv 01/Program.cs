@@ -40,6 +40,12 @@
             #region 11
             // it forces subclass to inhiert from baseclass
             #endregion
+
+            #region Question 12
+            //it is possible to have multiple constraints on a generic type parameter in C#. You can specify multiple constraints using the where keyword,
+            //separating each constraint with a comma. For example:
+            Questiion_12 questiion = new Questiion_12("hello");
+            #endregion
         }
     }
 }
