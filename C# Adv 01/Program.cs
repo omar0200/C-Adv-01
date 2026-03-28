@@ -62,6 +62,10 @@
             #region Question 16 
             //Contravariance allows you to use a less derived type than originally specified. in keyword prevents using in output position 
             #endregion
+
+            #region Question 17 
+            //covariance is used mostly for generalization and contravariance is used for specialization
+            #endregion
         }
     }
 }
