@@ -34,7 +34,7 @@
 
             #region Question 10 
             //it means class must implement the interface and the interface is generic and it can work with any data type 
-            Question_10<IRepository<string>> q10 = new Question_10<IRepository<string>>();
+            //Question_10<IRepository<string>> q10 = new Question_10<IRepository<string>>();
             #endregion
 
             #region 11
@@ -73,7 +73,23 @@
 
             #region Question 19 
             //Generic classes can inherit from other generic or non-generic classes.
-            #endregion 
+            #endregion
+
+            #region Question 20
+            Cache<string, int> cache = new Cache<string, int>();
+            cache.Add("age", 20);
+            cache.Add("year", 2026);
+            Console.WriteLine("age: " + cache.Get("age"));
+            Console.WriteLine("year: " + cache.Get("year"));
+
+            Console.WriteLine(" age " + cache.Contains("age"));
+            Console.WriteLine(" name " + cache.Contains("name")); 
+
+            cache.Remove("age");
+
+            Console.WriteLine("After remove:");
+            Console.WriteLine(" age? " + cache.Contains("age"));
+            #endregion
         }
     }
 }
