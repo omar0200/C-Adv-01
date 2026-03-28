@@ -70,6 +70,10 @@
             #region Question 18
             //each generic type has its own field in static
             #endregion
+
+            #region Question 19 
+            //Generic classes can inherit from other generic or non-generic classes.
+            #endregion 
         }
     }
 }
