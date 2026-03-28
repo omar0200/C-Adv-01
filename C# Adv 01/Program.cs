@@ -4,7 +4,92 @@
     {
         static void Main(string[] args)
         {
-            
+            #region Question 1
+            //generic class is class that can work with any data type 
+            //we are using generic because its save and it has good preformance 
+            #endregion
+            #region Question 3
+            //same as single generic class parameter  you pass two generic values and it will be work with any data type
+            #endregion
+            #region Question 4 
+            //generic method is method that can declare its own data type
+            #endregion
+            #region Question 5
+            // it defines a contract with type parameters that must be implemented by any class that implements the interface.
+            #endregion
+            #region Question 7 
+            // Struct constrain force the parameter to be value type 
+            Question_7<int> q = new Question_7<int>();
+            #endregion
+
+            #region Question 8
+            // class constrain force the parameter to be refernce type 
+            Question8<string> p = new Question8<string>();
+            #endregion
+
+            #region Question 9
+            // must have parameterless constractor 
+            Question_9<int> q9 = new Question_9<int>(5);
+            #endregion
+
+            #region Question 10 
+            //it means class must implement the interface and the interface is generic and it can work with any data type 
+            //Question_10<IRepository<string>> q10 = new Question_10<IRepository<string>>();
+            #endregion
+
+            #region 11
+            // it forces subclass to inhiert from baseclass
+            #endregion
+
+            #region Question 12
+            //it is possible to have multiple constraints on a generic type parameter in C#. You can specify multiple constraints using the where keyword,
+            //separating each constraint with a comma. For example:
+            Questiion_12 questiion = new Questiion_12("hello");
+            #endregion
+
+            #region Question 13
+            //it return default value for type t 0/false for value type null for reference type
+            #endregion
+
+            #region Question 14
+            SafeList<int> safeList = new SafeList<int>();
+            #endregion
+
+            #region Question15
+            //covariance means using a multipule derived type than orginally    && out keyword prevents using in input position 
+            #endregion
+
+            #region Question 16 
+            //Contravariance allows you to use a less derived type than originally specified. in keyword prevents using in output position 
+            #endregion
+
+            #region Question 17 
+            //covariance is used mostly for generalization and contravariance is used for specialization
+            #endregion
+
+            #region Question 18
+            //each generic type has its own field in static
+            #endregion
+
+            #region Question 19 
+            //Generic classes can inherit from other generic or non-generic classes.
+            #endregion
+
+            #region Question 20
+            Cache<string, int> cache = new Cache<string, int>();
+            cache.Add("age", 20);
+            cache.Add("year", 2026);
+            Console.WriteLine("age: " + cache.Get("age"));
+            Console.WriteLine("year: " + cache.Get("year"));
+
+            Console.WriteLine(" age " + cache.Contains("age"));
+            Console.WriteLine(" name " + cache.Contains("name")); 
+
+            cache.Remove("age");
+
+            Console.WriteLine("After remove:");
+            Console.WriteLine(" age? " + cache.Contains("age"));
+            #endregion
         }
     }
 }
